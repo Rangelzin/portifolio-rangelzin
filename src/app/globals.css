@@ -5,6 +5,7 @@
   --background: #000000;
   --foreground: #1A1A1A;
   --gold: #FFD700;
+  --secondary: #090909;
 }
 
 @theme inline {
