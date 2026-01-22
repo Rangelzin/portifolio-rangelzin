@@ -1,6 +1,6 @@
 'use client';
 
-import ItemMenu from "./ItemMenu";
+import ItemMenu from "../ui/ItemMenu";
 import { useEffect, useState } from "react";
 
 export default function Navbar() {
