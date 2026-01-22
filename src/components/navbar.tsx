@@ -19,7 +19,7 @@ export default function Navbar() {
   sessoes.forEach((sessao) => observador.observe(sessao));
 }, []); 
   return (
-    <nav id="navbar/header" className="fixed bg-black w-full h-20 flex items-center justify-between px-20">
+    <nav id="navbar/header" className="fixed top-0 left-0 w-full h-20 flex items-center justify-between px-20 bg-black/10 backdrop-blur-md z-50">
       <div id="Nome" className="flex text-4xl">
         <span className="text-gold">R</span>
         <span>angel</span>
