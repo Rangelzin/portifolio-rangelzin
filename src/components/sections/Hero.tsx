@@ -3,7 +3,7 @@ import minhaFoto from '../../../public/RangelFoto1.svg';
 import EmojiMao from '../../../public/EmojiMao.svg';
 import Button from '../ui/Button';
 
-export default function HomePage() {
+export default function Hero() {
   return (
     <section id="home" className="relative flex flex-row items-center justify-center h-screen w-100% bg-black text-white">
         <div className='absolute left-50 top-1/2 transform -translate-y-1/2 w-[500] h-[500] bg-gold rounded-full blur-[120px] opacity-20 pointer-events-none hidden md:flex'></div>
