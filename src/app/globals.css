@@ -6,14 +6,17 @@
   --foreground: #1A1A1A;
   --gold: #FFD700;
   --secondary: #090909;
+  --darkgold: #2A2310
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --color-gold: var(--gold);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+  --color-gold: var(--gold);
+  --color-darkgold: var(--darkgold);
+  --color-secondary: var(--secondary);
 }
 
 @media (prefers-color-scheme: dark) {
