@@ -1,4 +1,4 @@
-import ProjetosCards from "../layout/projetos";
+import ProjetosCards from "../ui/projetos";
 import turingbar from "../../../public/image-projetos/turingbarber.png";
 import springboot from "../../../public/image-projetos/springbootjava.png"; 
 import rdu from "../../../public/image-projetos/rdu-login.png";
@@ -33,8 +33,8 @@ export default function Projects() {
                   title="Clone Amazon"
                   description="Projeto de clone da Amazon desenvolvido com Tailwind CSS e arquitetura de tags HTML5, focado em replicar a interface e funcionalidades básicas do site original. Inclui páginas de produtos, carrinho de compras e navegação responsiva."
                   image={amazonclone}
-                  repoLink="#"
-                  demoLink="#"
+                  repoLink="https://github.com/Rangelzin/Clone-Amazon-2020.git"
+                  demoLink="https://rangelzin.github.io/Clone-Amazon-2020/src/indexAMAZON.html"
             />
           </div>
     </section>

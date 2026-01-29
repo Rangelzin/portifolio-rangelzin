@@ -10,12 +10,15 @@ export default function Navbar() {
   const sessoes = document.querySelectorAll('section');
 
   const observador = new IntersectionObserver((entries) => {
-    entries.forEach((entry) => {
-      if (entry.isIntersecting) {
-        setSecaoAtiva(entry.target.id ) 
-      }
-    });
-  }, { threshold: 0.7 }); 
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          setSecaoAtiva(entry.target.id ) 
+        }
+      });
+    }, { 
+      threshold: 0,           
+      rootMargin: "-50% 0px -50% 0px" 
+  }); 
   sessoes.forEach((sessao) => observador.observe(sessao));
 }, []); 
   return (

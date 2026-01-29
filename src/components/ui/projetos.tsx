@@ -13,7 +13,7 @@ interface ProjectsProps {
 export default function ProjetosCards({ title, description, image, repoLink, demoLink }: ProjectsProps) { 
     return (
 
-        <div className="flex flex-col bg-neutral-900 border hover:border-white border-gold rounded-3xl overflow-hidden transition-colors duration-300 w-[400] h-[500]">
+        <div className="flex flex-col bg-neutral-900 border hover:border-white border-gold rounded-3xl overflow-hidden transition-colors duration-300 w-[400] h-[600]">
 
             <div className="relative h-1/2 w-full bg-black">
                 <Image
@@ -27,7 +27,7 @@ export default function ProjetosCards({ title, description, image, repoLink, dem
             <div className="flex flex-col justify-between p-6 h-1/2">
                 <div>
                     <h3 className="text-2xl font-bold text-white mb-2">{title}</h3>
-                    <p className="text-gray-400 text-lg line-clamp-3">
+                    <p className="text-gray-400 text-lg line-clamp-5">
                         {description}
                     </p>
                 </div>
